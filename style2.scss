@@ -1,0 +1,71 @@
+$font-titre: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-texte: arial, helvetica, clean, sans-serif;
+$col1: #333;
+$rouge: #eb1e5c;
+$brun: #333;
+$blanc: #fff;
+
+body{
+	font: 1.2em/1.62 $font-texte;
+	padding:0 .62em;
+	background: $blanc;
+	color: $col1;
+	max-width: 40em;
+	margin: 1em auto;
+	h1,h2,h3{
+		font: $font-titre;
+		line-height:1.2;
+		color: $brun; 
+	}
+}
+.ColleEnCours{
+	background: rgb(250, 250, 250);
+	border: 2px solid #ddd;
+}
+
+.box{
+	padding: 1em 2em;
+}
+
+.content{
+	max-width: 769px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fluidframe {
+	position: relative;
+	padding-top: 200%
+}
+
+.fluidframe iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+*/
+.header{
+	background: $blanc;
+	h1{
+		text-align: center;
+		padding:10px;
+		font: 40px $font-titre;
+	}
+}
+
+
+.maj{
+	font: 18px $font-titre;
+	color: $brun; 
+}
+
+
