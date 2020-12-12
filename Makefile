@@ -1,7 +1,7 @@
 final=index.html
 template=template.html
 build_ID=$(shell zenity --entry --title="Commit" --text="ID du commit")
-css=style2.css style.css
+css=style2.css 
 
 
 all: $(final) $(css)
