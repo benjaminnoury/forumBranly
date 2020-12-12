@@ -16,14 +16,13 @@ all: $(final) $(css)
 	@echo "\033[0;31m$< --> $@\033[0m"
 	@pp $< | \
 		pandoc -s --template=template.html | \
-		sed -e s/\<table/\<table\ id=\"tableau\_ecole\"\ class=\"pure-table\ pure-table-responsive\ pure-table-striped\"/g > $@
+		sed -e s/\<table/\<table\ id=\"tableau\_ecole\"\ class=\"pure-table\ pure-table-responsive\ pure-table-striped\ center\"/g > $@
 		# sed -e s/\<a\ /\<a\ target=\"_blank\"\/g | \
 
 
 %.css: %.scss
 	@echo "\033[0;31m$< --> $@\033[0m"
-	@sass $< $@ --style compressed
-	@rm $@.map
+	@sassc $< $@ --style compressed
 
 %.csv: %.xls
 	@echo "\033[0;31m$< --> $@\033[0m"
