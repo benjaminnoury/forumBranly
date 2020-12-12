@@ -2,7 +2,8 @@
 title: Forum des anciens étudiants
 ---
 
-<table class="pure-table pure-table-striped">
+<section>
+<table >
 	<thead>
 		<tr>
 			<th>Salle</th>
@@ -15,7 +16,7 @@ title: Forum des anciens étudiants
 				<a href="https://meet.jit.si/Forum_Branly_SG1">Écoles en alternances</a>
 			</td>
 			<td>
-				ITII, ISTP, Réseau Polytech, ESILV, IMT Lille Douai
+				ITII, ESILV, ISTP, IMT Lille Douai, ENSAM, CPE Lyon, ECAM Lyon, INSA, Polytech Grenoble.
 			</td>
 		</tr>
 		<tr>
@@ -23,7 +24,7 @@ title: Forum des anciens étudiants
 				<a href="https://meet.jit.si/Forum_Branly_SG2">École centrale et ENS</a>
 			</td>
 			<td>
-				Centrale Nantes, Centrale Lille, ENS Rennes, ENS Cachan
+				Centrale Lille, Centrale Marseille, Centrale Nantes, ENS Rennes.
 			</td>
 		</tr>
 		<tr>
@@ -31,7 +32,7 @@ title: Forum des anciens étudiants
 				<a href="https://meet.jit.si/Forum_Branly_SG3">Formation Initiale - Réseau Polytech</a>
 			</td>
 			<td>
-				Polytech Marseille, Polytech Clermont
+Polytech Clermont (GE), Polytech Marseille (Génie industriel & Informatique), Polytech Nantes (Électronique et technologie numérique)
 			</td>
 		</tr>
 		<tr>
@@ -60,3 +61,18 @@ title: Forum des anciens étudiants
 		</tr>
 	</tbody>
 </table>
+</section>
+<section>
+!csv(orga.csv)
+</section>
+
+<script>$(document).ready(function() {
+	$('#tableau_ecole').DataTable({
+		"paging":	false,
+		"info":		false,		
+		"language": {
+		      "search": "Filtre: "
+		      }
+		  });
+	});</script>
+
