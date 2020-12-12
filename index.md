@@ -13,50 +13,50 @@ title: Forum des anciens étudiants
 	<tbody>
 		<tr>
 			<td>
-				<a href="https://meet.jit.si/Forum_Branly_SG1">Écoles en alternances</a>
+Salle 1
 			</td>
 			<td>
-				ITII, ESILV, ISTP, IMT Lille Douai, ENSAM, CPE Lyon, ECAM Lyon, INSA, Polytech Grenoble.
+				<a href="https://meet.jit.si/Forum_Branly_SG1">Écoles en alternances</a>
 			</td>
 		</tr>
 		<tr>
+			<td>
+Salle 2
+			</td>
 			<td>
 				<a href="https://meet.jit.si/Forum_Branly_SG2">École centrale et ENS</a>
 			</td>
-			<td>
-				Centrale Lille, Centrale Marseille, Centrale Nantes, ENS Rennes.
-			</td>
 		</tr>
 		<tr>
+			<td>
+Salle 3
+			</td>
 			<td>
 				<a href="https://meet.jit.si/Forum_Branly_SG3">Formation Initiale - Réseau Polytech</a>
 			</td>
+		</tr>
+		<tr>
 			<td>
-Polytech Clermont (GE), Polytech Marseille (Génie industriel & Informatique), Polytech Nantes (Électronique et technologie numérique)
+Salle 4
+			</td>
+			<td>
+			<a href="https://meet.jit.si/Forum_Branly_SG4">Formations Initiales - Autres écoles publiques</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<a href="https://meet.jit.si/Forum_Branly_SG4">Formations Initiales</a>
+Salle 5
 			</td>
 			<td>
-				ECAM, ENSAM, ISAE-ENSMA, ISAT, ESTIA, ENSIL, ESIGELEC, SIGMA, IMT Lille-Douai
+				<a href="https://meet.jit.si/Forum_Branly_SG5">Formations Initiales - Écoles privées</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<a href="https://meet.jit.si/Forum_Branly_SG5">Formations Initiales</a>
+			Salle 6
 			</td>
-			<td>
-				ESIX, ESIREM, ENSEM, Telecom Sud Paris, ENIS, CESI, ENSISA, ENSTA 
-			</td>
-		</tr>
-		<tr>
 			<td>
 				<a href="https://meet.jit.si/Forum_Branly_SG6">Formations Initiales - élèves de TSI</a>
-			</td>
-			<td>
-				INSA, ISAE, Polytech, SIGMA	
 			</td>
 		</tr>
 	</tbody>
