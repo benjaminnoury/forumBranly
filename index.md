@@ -66,13 +66,4 @@ Salle 5
 !csv(orga.csv)
 </section>
 
-<script>$(document).ready(function() {
-	$('#tableau_ecole').DataTable({
-		"paging":	false,
-		"info":		false,		
-		"language": {
-		      "search": "Filtre: "
-		      }
-		  });
-	});</script>
 

@@ -17,7 +17,9 @@
     	integrity="sha<t_co>-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
     	crossorigin="anonymous"></script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css"> 
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.js"></script> -->
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Gentium+Basic" rel="stylesheet"> -->
 
@@ -365,8 +367,10 @@
       $('#tableau_ecole').DataTable({
           "paging":   false,
           "info":     false,      
+          "select":   true,
+          "responsive": true,
           "language": {
-                "search": "Filtre: "
+                "search": "Recherche: "
                 }
             });
       });</script>
