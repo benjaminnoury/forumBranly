@@ -11,7 +11,6 @@
 	integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" 
 	crossorigin="anonymous">	
 
-<link rel="stylesheet" href="./style2.css">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     	integrity="sha<t_co>-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
@@ -23,12 +22,9 @@
 <script type="text/javascript" charset="utf8"
 	src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
 
+<link rel="stylesheet" href="./style2.css">
 
  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-$for(header-includes)$
-	$header-includes$
-$endfor$
 
 </head>
 <body>
@@ -41,16 +37,5 @@ $endfor$
 		$body$
 	</div>
 </div>
-<script>$(document).ready(function() {
-      $('#tableau_ecole').DataTable({
-          "paging":   false,
-          "info":     false,      
-          "select":   true,
-          "responsive": true,
-          "language": {
-                "search": "Recherche: "
-                }
-            });
-      });</script>
 </body>
 </html>
